@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .hero {
+        background-image: url("./Hero Image.svg");
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="border-b borrder-gray-300 py-4"
+      style="background-color: #6b3cc9"
+    >
+      <div class="container mx-auto flex items-center justify-between relative">
+        <img src="./Logo (5).svg" width="238" height="25" alt="Logo" />
+
+        <nav>
+          <ul class="flex ml-auto">
+            <li>
+              <a
+                href="#"
+                id="servicesLink"
+                class="px-4 py-2 transition hover:bg-gray-400 rounded-md text-white"
+                >SERVICES</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                id="aboutusLink"
+                class="px-4 py-2 transition hover:bg-gray-400 rounded-md text-white"
+                >ABOUT US</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                id="contactusLink"
+                class="px-4 py-2 transition hover:bg-gray-400 rounded-md text-white"
+                >CONTACT US</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                id="careersLink"
+                class="px-4 py-2 transition hover:bg-gray-400 rounded-md text-white"
+                >CAREERS</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container mx-auto flex items-center justify-between relative">
+        <h1
+          class="text-xl font-medium text-white box-decoration-clone bg-gradient-to-r from-green-400 to-blue-500 text-white box-border h-100 w-100 p-6"
+          style="
+            font-family: 'Inter', sans-serif;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 40px;
+          "
+        >
+          We crush your<br />
+          competitors, goals, and <br />
+          records - without <br />the B.S.<br />
+          <button
+            id="consultationBtn"
+            class="bg-orange-500 text-white-500 rounded-none p-1"
+            style="font-family: 'Inter', sans-serif; font-size: 15px"
+          >
+            GET FREE CONSULTATION
+          </button>
+        </h1>
+      </div>
+    </section>
+
+    <section class="relative py-4">
+      <div class="container mx-auto">
+        <div class="rounded-none p-4 flex items-center space-x-4 divide-x">
+          <div class="p-8 bg-white-50 flex-1">
+            <img src="./image 2.svg" class="mx-auto" alt="image" />
+          </div>
+          <div class="p-8 bg-white-100 flex-1">
+            <h1
+              style="
+                font-family: Poppins, sans-serif;
+                font-weight: bold;
+                font-size: 27px;
+                line-height: 33px;
+                color: #6b3cc9;
+              "
+            >
+              Web & Mobile App Development
+            </h1>
+            <br />
+            <p
+              style="
+                font-family: Inter, sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+              "
+            >
+              Your web and mobile Apps are pieces of the puzzle to grow your
+              business. We use frameworks which tailor content and engagement
+              methods to respond to different intents shown by your potential
+              customers who interact with your business online.
+            </p>
+            <br />
+            <button
+              id="learnmoreBtn"
+              class="bg-orange-500 text-white rounded-none p-2"
+              style="
+                font-family: 'Inter', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+              "
+            >
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative py-4">
+      <div class="container mx-auto">
+        <div class="rounded-none p-4 flex items-center space-x-4 divide-x">
+          <div class="p-8 bg-white-50 flex-1">
+            <h1
+              style="
+                font-family: Poppins, sans-serif;
+                font-weight: bold;
+                font-size: 27px;
+                line-height: 33px;
+                color: #6b3cc9;
+              "
+            >
+              Digital Strategy Consulting
+            </h1>
+            <br />
+            <p
+              style="
+                font-family: Inter, sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+              "
+            >
+              Your digital strategy should complement the overall marketing
+              strategy<br />
+              the company. In online marketing, each component will never work
+              in<br />
+              isolation and every business needs a different mix. We provide a
+              clear<br />
+              concept and strategic overview to find the most efficient model
+              for<br />
+              your business.
+            </p>
+            <br />
+            <button
+              id="learnmoreBtn"
+              class="bg-orange-500 text-white rounded-none p-2"
+              style="
+                font-family: 'Inter', sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+              "
+            >
+              LEARN MORE
+            </button>
+          </div>
+          <div class="p-8 bg-white-100 flex-1">
+            <img src="./image 1.svg" class="w-96 mx-auto" alt="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="mt-20 py-4"
+      style="background-color: #6b3cc9; height: 320px"
+    >
+      <div class="rounded-none pl-4 flex inline-block">
+        <div class="inline-block align-top mt-0 flex-1">
+          <img src="./Logo (5).svg" alt="image" />
+          <p
+            class="text-white pt-4"
+            style="
+              font-family: 'Lato';
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 19px;
+            "
+          >
+            Your goal is our target. Not anything in between. We use<br />
+            online marketing platforms and tools to achieve single<br />
+            objective - your business results.
+          </p>
+        </div>
+        <div class="rounded-none pl-4 flex inline-block">
+          <div class="p-4 pr-20 flex-1">
+            <h1
+              class="text-white"
+              style="
+                font-family: 'Inter', sans-serif;
+                font-size: 21px;
+                font-weight: 600;
+                line-height: 25px;
+              "
+            >
+              Our Technologies
+            </h1>
+            <br />
+            <ul
+              style="
+                font-family: 'Inter', sans-serif;
+                color: white;
+                font-size: 14px;
+                line-height: 16px;
+              "
+            >
+              <li>ReactJS</li>
+              <br />
+              <li>Gatsby</li>
+              <br />
+              <li>NextJS</li>
+              <br />
+              <li>GraphQL</li>
+              <br />
+              <li>Laravel</li>
+              <br />
+            </ul>
+          </div>
+          <div class="p-4 flex-1">
+            <h1
+              class="text-white"
+              style="
+                font-family: 'Inter', sans-serif;
+                font-size: 21px;
+                font-weight: 600;
+                line-height: 25px;
+              "
+            >
+              Our Services
+            </h1>
+            <br />
+            <ul
+              style="
+                font-family: 'Inter', sans-serif;
+                color: white;
+                font-size: 14px;
+                line-height: 16px;
+              "
+            >
+              <li>Social media Marketing</li>
+              <br />
+              <li>Web & Mobile App Development</li>
+              <br />
+              <li>Data & Analytics</li>
+              <br />
+              <li>Google Marketing solutions</li>
+              <br />
+              <li>Search Engine Optimization</li>
+              <br />
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 50%" class="mx-auto" />
+      <p
+        style="
+          text-align: center;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 16px;
+        "
+        class="text-white pt-2"
+      >
+        <a href="#">Privacy Policy </a>| <a href="#">Terms and Conditions</a>
+      </p>
+    </section>
+    <script>
+      document
+        .getElementById("servicesLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          alert("Services link clicked!");
+        });
+      document
+        .getElementById("aboutusLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          alert("About Us link clicked!");
+        });
+      document
+        .getElementById("careersLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          alert("Careers link clicked!");
+        });
+      document
+        .getElementById("contactusLink")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          alert("Contact Us link clicked!");
+        });
+
+      document
+        .getElementById("consultationBtn")
+        .addEventListener("click", function () {
+          alert("Consultation Button clicked!");
+        });
+      document
+        .getElementById("learnmoreBtn")
+        .addEventListener("click", function () {
+          alert("Learn More Button clicked!");
+        });
+    </script>
+  </body>
+</html>
